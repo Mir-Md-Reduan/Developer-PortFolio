@@ -9,7 +9,7 @@ h1 {
     color: orange;
 }
 
-section{
+.flaxible-container{
     display: flex;
 }
 .half-width{
@@ -36,6 +36,6 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.Dream-Padding {
-    padding-right: 30px;
+.Orange-color{
+    color: orange;
 }
