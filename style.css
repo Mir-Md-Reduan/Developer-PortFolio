@@ -39,3 +39,31 @@ h1 {
 .Orange-color{
     color: orange;
 }
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 100px gray;
+    padding-left: 20px;
+
+}
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Experience_ID_1{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+#Experience_ID{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, lightblue);
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
+}
