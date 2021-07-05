@@ -41,7 +41,7 @@ h1 {
 }
 .experience-item{
     width: 40%;
-    margin-left: 5%;
+    margin-left:4%;
     margin-right: 5%;
     margin-bottom: 150px;
     border-radius: 10px;
@@ -56,12 +56,12 @@ h1 {
 }
 #Experience_ID_1{
     border-left: 7px solid;
-    border-image: linear-gradient(red,tomato);
+    border-image: linear-gradient(blue, lightblue);
     border-image-slice: 1;
 }
 #Experience_ID{
     border-left: 7px solid;
-    border-image: linear-gradient(blue, lightblue);
+    border-image: linear-gradient(#964d09, #e28743);
     border-image-slice: 1;
 }
 footer {
