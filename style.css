@@ -55,9 +55,17 @@ h1 {
     background-position: left;
 }
 #Experience_ID_1{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue, lightblue);
-    border-image-slice: 1;
+    border: 2px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding-left: 5px;
+    
+    /* border-left: 7px solid transparent;
+    border-image: linear-gradient(180deg, #c82517 0%, #971000 100%);
+    border-image-slice: 1; */
+    
 }
 #Experience_ID{
     border-left: 7px solid;
